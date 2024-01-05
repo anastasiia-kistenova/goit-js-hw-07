@@ -109,3 +109,84 @@ border-radius: 8px;
   object-fit: cover;
  
 }
+
+
+/* 3 */
+
+.text-input {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 40px;
+}
+
+.text-input::placeholder {
+color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  padding: 8px 140px 8px 16px;
+}
+
+.words {
+color: #2E2F42;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.96px;
+}
+
+
+/* 4 */
+.input-form {
+  width: 360px;
+  height: 40px;
+ border-radius: 4px;
+  border: 1px solid #808080;
+  display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.input-form:hover {
+border: 1px solid #000;
+
+}
+
+.input-form:active {
+border: 1px solid #808080;
+}
+
+
+.button-form {
+  border-radius: 8px;
+  background: #4E75FF;
+  display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.64px;
+      margin-top: 16px;
+}
+
+
+.button-form:hover,
+.button-form:focus {
+  background-color: #6C8CFF;
+} 
+
+
+
+
