@@ -187,6 +187,62 @@ border: 1px solid #808080;
   background-color: #6C8CFF;
 } 
 
+.login-lable {
+  color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+
+/* 5 */
+
+.change-color {
+  border-radius: 8px;
+    background: #4E75FF;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+
+.widget {
+  display: inline-flex;
+    padding: 100px 88px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+      background: #FFF;
+}
+
+.title {
+  color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+
+}
+
+.change-color:hover,
+.change-color:focus {
+  background-color: #6C8CFF;
+}
+
+
+
 
 
 
