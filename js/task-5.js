@@ -1,10 +1,12 @@
 
 const button = document.querySelector(".change-color");
-const widget = document.querySelector(".widget");
+const body = document.querySelector("body");
+const colorSpan = document.querySelector(".color");
 
 button.addEventListener('click', function () {
   const newColor = getRandomHexColor();
-  widget.style.backgroundColor = newColor;
+  body.style.backgroundColor = newColor;
+  colorSpan.textContent = newColor;
 });
 
 

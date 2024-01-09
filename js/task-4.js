@@ -14,7 +14,7 @@ function handleSubmit(event) {
     
     const formData = {
         email: email,
-      password: "*".repeat (password.length)
+      password: password
     };
 
     console.log(formData);
